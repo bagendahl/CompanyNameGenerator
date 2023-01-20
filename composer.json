@@ -5,13 +5,23 @@
   "version": "1.0.0",
   "license": "MIT",
   "authors": [
-      { "name": "Francois Zaninotto" }
+      {
+          "name": "Francois Zaninotto"
+      },
+      {
+          "name": "Patrick B",
+          "email": "patrick@be-it.se",
+          "homepage": "https://be-it.se",
+          "role": "Hotfixer"
+      }
   ],
   "require": {
-      "php": ">=5.3.0",
-      "fzaninotto/faker": "~1.4"
+      "php": ">=8.0",
+      "fakerphp/faker": "^1.2"
   },
   "autoload": {
-      "psr-4": { "CompanyNameGenerator\\": "src/CompanyNameGenerator/" }
+      "psr-4": {
+        "CompanyNameGenerator\\": "src/CompanyNameGenerator/"
+      }
   }
 }
